@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+    background-image: url("Fundo.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.formulario {
+    top: 20%;
+    left: 2%;
+    position: absolute;
+    color: whitesmoke;
+    text-align: center;
+}
+
+form {
+    max-width: 60%;
+    background-color: rgba(36, 36, 36, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    height: 100%;
+}
+
+input {
+    border-radius: 5px;
+    padding: 5px;
+    width: 80%;
+}
+
+button {
+    background-color: #66007a;
+    color: #fff;
+    border-top:  10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    width: 100%;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #150029;
+    border-radius: 5px;
+}
+
+.mensagem-erro {
+    border: 2px solid #e30000; 
+    background-color: #ffbaba; 
+    color: #ff0000; 
+    padding: 15px; 
+    max-width: 60%;
+}
